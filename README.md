@@ -1,5 +1,5 @@
 # Pixel_City
-# Pixel City - Game Hall Readme
+# Pixel City - Game Hall
 
 ## 1. Introduction
 Pixel City is a game hall project that integrates multiple game zones. Users can select different games to play after logging in or registering. The highlight is the Gobang (Five-in-a-Row) zone, where users can engage in online battles by choosing rooms or play against AI with托管 (hosting) feature. Each game round will adjust scores based on the game situation and rank players accordingly.
@@ -32,7 +32,7 @@ Pixel City is a game hall project that integrates multiple game zones. Users can
 
 ---
 
-# Pixel City - 游戏大厅 自述文件
+# Pixel City - 游戏大厅
 
 ## 1. 介绍
 像素之城是一个集成了多种游戏专区的游戏大厅项目。用户登录或注册后，可选择不同游戏进行游玩。其中重点是五子棋专区，在该专区用户可通过选择房间进行双人在线对战，也可进行AI托管对战。每局游戏会根据对局情况调整分数并对玩家进行排名。
