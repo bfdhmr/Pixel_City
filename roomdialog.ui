@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RoomDialog</class>
+ <widget class="QDialog" name="RoomDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1467</width>
+    <height>1024</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1467</width>
+    <height>1024</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1467</width>
+    <height>1024</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="FiveInLine" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>190</y>
+     <width>580</width>
+     <height>580</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_player2_ready">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>460</y>
+     <width>93</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>待准备</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_icon_player2">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>450</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/icon/slotwait.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="tb_chatShow">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>570</y>
+     <width>421</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_chat">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>950</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>1370</x>
+     <y>950</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_start">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>230</y>
+     <width>93</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始游戏</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_icon_player1">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>230</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/icon/slotwait.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_player1_ready">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>280</y>
+     <width>93</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>待准备</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_icon_viewer1">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>40</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/icon/slotwait.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_icon_viewer2">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>40</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/icon/slotwait.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_icon_viewer3">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>40</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/icon/slotwait.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_view_title">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>10</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>观察者模式</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_viewer1_name">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>120</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_viewer2_name">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>120</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_viewer3_name">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>120</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>160</y>
+     <width>311</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="lb_player1">
+      <property name="text">
+       <string>玩家1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lb_player1_name">
+      <property name="text">
+       <string>等待加入中...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>380</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="lb_player2">
+      <property name="text">
+       <string>玩家2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lb_player2_name">
+      <property name="text">
+       <string>等待加入中...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pb_player1_cpu">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>330</y>
+     <width>93</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>托管</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_player2_cpu">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>500</y>
+     <width>93</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>托管</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FiveInLine</class>
+   <extends>QWidget</extends>
+   <header>fiveinline.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
