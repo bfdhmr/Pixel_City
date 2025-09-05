@@ -8,7 +8,7 @@ Pixel City is a game hall project that integrates multiple game zones. Users can
 - **Client**: Developed with QT on Windows. For the Gobang module, it uses array logic to judge piece placement and game results, and adopts frame synchronization for unified game management. The AI algorithm records game records and calculates the corresponding weight of each grid on the chessboard when placing pieces each time.
 - **Server**: The code is in the `PlayServer` branch. It runs on Ubuntu 16 environment. It uses MySQL for data storage, defines corresponding structure nodes for each player, and uses hash tables and skip lists for score ranking. MD5 is used to simulate encryption for some content.
 
-## 3. Quick Start
+## 3. development environment
 ### 3.1 Client (Windows)
 1. Ensure QT development environment is set up on Windows.
 2. Clone the project repository.
@@ -41,7 +41,7 @@ Pixel City is a game hall project that integrates multiple game zones. Users can
 - **客户端**：在Windows系统上使用QT开发。五子棋模块通过数组逻辑判断落子和胜负情况，采用帧同步方式进行统一对局管理。人机算法通过记录棋谱，每次落子时计算棋盘格子的相应权值。
 - **服务端**：代码位于`PlayServer`分支，运行在Ubuntu 16环境下。使用MySQL进行数据存储，为每个玩家定义相应的结构体节点，并利用哈希表和跳表进行分数排行。使用MD5对部分内容进行模拟加密。
 
-## 3. 快速开始
+## 3. 开发环境
 ### 3.1 客户端（Windows）
 1. 确保Windows上已搭建QT开发环境。
 2. 克隆项目仓库。
